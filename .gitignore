@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# Reference repos - local only, not tracked
+references/
