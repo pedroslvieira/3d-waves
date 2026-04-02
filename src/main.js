@@ -22,7 +22,7 @@ document.body.appendChild(renderer.domElement);
 
 // Environment map
 const cubeTextureLoader = new THREE.CubeTextureLoader();
-cubeTextureLoader.setPath("/realistic-water/");
+cubeTextureLoader.setPath("/3d-gerstner-waves/");
 const environmentMap = cubeTextureLoader.load([
   "px.png", // positive x
   "nx.png", // negative x
@@ -33,7 +33,7 @@ const environmentMap = cubeTextureLoader.load([
 ]);
 
 const poolTexture = new THREE.TextureLoader().load(
-  "/realistic-water/ocean_floor.png"
+  "/3d-gerstner-waves/ocean_floor.png"
 );
 
 scene.background = environmentMap;

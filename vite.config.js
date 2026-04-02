@@ -1,7 +1,7 @@
 import glsl from "vite-plugin-glsl";
 
 export default {
-  base: "/realistic-water/",
+  base: "/3d-gerstner-waves/",
   build: {
     sourcemap: true,
   },
